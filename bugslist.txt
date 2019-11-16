@@ -1,0 +1,7 @@
+Bugs:
+
+-enqueue() function add to the front of queue or peekfront() only peeks m_back pointer
+
+-peekfront() function peeks back of queue due to enqueue() or its only peek m_back pointer
+
+-~Queue() function does not destroy all the iteams after exiting the program (Memory leaks)
